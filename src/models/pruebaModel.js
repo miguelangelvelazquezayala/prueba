@@ -1,5 +1,3 @@
-
-
 const getById = async (connection, id) =>{
     try{
     const [prueba,_] = await connection.execute("SELECT * FROM prueba WHERE id = ?",[id]);
